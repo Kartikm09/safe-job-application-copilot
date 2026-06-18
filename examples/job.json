@@ -1,0 +1,15 @@
+{
+  "company": "Automation Studio",
+  "title": "AI Job Application Workflow Builder",
+  "description": "We need a freelancer who can build Python automation for job matching, resume tailoring, cover letter drafts, LinkedIn research, browser workflow planning, and human-in-the-loop application review for students in Germany.",
+  "required_skills": [
+    "python",
+    "automation",
+    "resume",
+    "cover letter",
+    "linkedin",
+    "workflow",
+    "browser",
+    "germany"
+  ]
+}

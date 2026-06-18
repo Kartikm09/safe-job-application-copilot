@@ -1,0 +1,27 @@
+{
+  "name": "Kartik Mishra",
+  "email": "kartik@example.com",
+  "portfolio": "https://github.com/Kartikm09",
+  "skills": [
+    "Python",
+    "AI automation",
+    "workflow QA",
+    "model evaluation",
+    "resume tailoring",
+    "cover letter writing",
+    "browser workflow planning",
+    "Germany job search",
+    "agent red teaming",
+    "LinkedIn research"
+  ],
+  "evidence": [
+    {
+      "title": "AI Freelance Lead Scout",
+      "outcome": "Ranked AI training and evaluation leads with scores, risk flags, and pitch angles"
+    },
+    {
+      "title": "Resume Job Fit Tailor CLI",
+      "outcome": "Mapped real project evidence to job descriptions without fabricating experience"
+    }
+  ]
+}
