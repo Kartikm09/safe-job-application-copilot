@@ -26,6 +26,16 @@ JSON output:
 PYTHONPATH=src python3 -m safe_job_copilot.cli analyze examples/profile.json examples/job.json --format json
 ```
 
+Optional live Kimi/ZenMux strategy:
+
+```bash
+export ZENMUX_API_KEY="your_api_key_here"
+export ZENMUX_MODEL="moonshotai/kimi-k2.7-code-free"
+PYTHONPATH=src python3 -m safe_job_copilot.cli analyze examples/profile.json examples/job.json --llm
+```
+
+The API key is read from the environment and should never be committed. Without `--llm`, the repo runs fully offline.
+
 Run tests:
 
 ```bash
@@ -43,6 +53,7 @@ The CLI returns:
 - cover-letter draft
 - browser-fill plan for manual application forms
 - required human approval gates before submit
+- optional Kimi/ZenMux application strategy when `--llm` is enabled
 
 ## Portfolio Signal
 
@@ -55,4 +66,3 @@ This repo supports profile positioning around:
 - human-in-the-loop automation
 - safe AI agents
 - Python CLI tooling
-
